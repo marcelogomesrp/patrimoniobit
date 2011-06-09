@@ -15,7 +15,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         Patrimonio pt = new Patrimonio();
-        pt.setNome("teste4");
+        pt.setNome("teste5");
         App.persist(pt);
 
         //org.slf4j.impl.StaticLoggerBinder
