@@ -80,24 +80,24 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>${spring.version}</version>
-            <exclusions>
+            <!--exclusions>
                 <exclusion>
                     <groupId>commons-logging</groupId>
                     <artifactId>commons-logging</artifactId>
                 </exclusion>
-            </exclusions>
+            </exclusions-->
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
             <scope>test</scope>
-            <exclusions>
+            <!--exclusions>
                 <exclusion>
                     <groupId>commons-logging</groupId>
                     <artifactId>commons-logging</artifactId>
                 </exclusion>
-            </exclusions>
+            </exclusions-->
         </dependency><dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -125,17 +125,17 @@
 </dependency>
 
 
-        <dependency>
+        <!--dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-full</artifactId>
             <version>${spring.version}</version>
-        </dependency>
+        </dependency-->
         
-        <dependency>
+        <!--dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-dao</artifactId>
             <version>${spring.version}</version>
-        </dependency>
+        </dependency-->
 <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
@@ -146,17 +146,17 @@
             <artifactId>spring-jdbc</artifactId>
             <version>${spring.version}</version>
         </dependency>
-        <dependency>
+        <!--dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-hibernate3</artifactId>
             <version>${spring.version}</version>
-        </dependency>
+        </dependency-->
         
 <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jpa</artifactId>
-            <version>${spring.version}</version>
-        </dependency>        
+            <version>2.0.8</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
